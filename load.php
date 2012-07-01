@@ -1,3 +1,3 @@
 <?
 
-require_once('lib/sass/SassParser.class.php');
+W::add_mixin('SassMixin');
