@@ -11,7 +11,7 @@
  * @subpackage Sass.Calculator
  */
 
-require_once dirname(__FILE__) . '/SassException.class.php';
+require_once 'SassException.class.php';
 
 /**
  * Sass calculator exception.
@@ -27,5 +27,3 @@ require_once dirname(__FILE__) . '/SassException.class.php';
 class SassCalculatorException extends SassException
 {
 }
-
-?>

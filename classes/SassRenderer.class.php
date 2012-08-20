@@ -11,8 +11,8 @@
  * @subpackage Sass
  */
 
-require_once dirname(__FILE__) . '/../common/CommonRenderer.class.php';
-require_once dirname(__FILE__) . '/SassParser.class.php';
+require_once 'CommonRenderer.class.php';
+require_once 'SassParser.class.php';
 
 /**
  * Sass renderer.
@@ -71,9 +71,7 @@ abstract class SassRenderer extends CommonRenderer
 	const COMPRESSED = 'CompressedSassRenderer';
 }
 
-require_once dirname(__FILE__) . '/renderers/NestedSassRenderer.class.php';
-require_once dirname(__FILE__) . '/renderers/ExpandedSassRenderer.class.php';
-require_once dirname(__FILE__) . '/renderers/CompactSassRenderer.class.php';
-require_once dirname(__FILE__) . '/renderers/CompressedSassRenderer.class.php';
-
-?>
+require_once 'NestedSassRenderer.class.php';
+require_once 'ExpandedSassRenderer.class.php';
+require_once 'CompactSassRenderer.class.php';
+require_once 'CompressedSassRenderer.class.php';

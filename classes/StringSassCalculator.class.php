@@ -11,7 +11,7 @@
  * @subpackage Sass.Calculator
  */
 
-require_once dirname(__FILE__) . '/../SassCalculator.interface.php';
+require_once 'SassCalculator.interface.php';
 
 /**
  * String Sass calculator.
@@ -105,5 +105,3 @@ class StringSassCalculator implements SassCalculator
 		return $this->value;
 	}
 }
-
-?>

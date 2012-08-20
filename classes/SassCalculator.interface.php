@@ -11,11 +11,11 @@
  * @subpackage Sass.Calculator
  */
 
-require_once dirname(__FILE__) . '/SassCalculatorException.class.php';
-require_once dirname(__FILE__) . '/calculators/LengthSassCalculator.class.php';
-require_once dirname(__FILE__) . '/calculators/ColorSassCalculator.class.php';
-require_once dirname(__FILE__) . '/calculators/NumberSassCalculator.class.php';
-require_once dirname(__FILE__) . '/calculators/StringSassCalculator.class.php';
+require_once 'SassCalculatorException.class.php';
+require_once 'LengthSassCalculator.class.php';
+require_once 'ColorSassCalculator.class.php';
+require_once 'NumberSassCalculator.class.php';
+require_once 'StringSassCalculator.class.php';
 
 /**
  * Sass calculator.
@@ -76,5 +76,3 @@ interface SassCalculator
 	 */
 	public function get();
 }
-
-?>

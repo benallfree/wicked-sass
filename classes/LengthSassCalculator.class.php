@@ -11,7 +11,7 @@
  * @subpackage Sass.Calculator
  */
 
-require_once dirname(__FILE__) . '/../SassCalculator.interface.php';
+require_once 'SassCalculator.interface.php';
 
 /**
  * Length Sass calculator.
@@ -190,5 +190,3 @@ class LengthSassCalculator implements SassCalculator
 	 */
 	protected static $units = array('px', 'em', 'ex', 'pt', 'in', 'mm', 'cm', '%');
 }
-
-?>

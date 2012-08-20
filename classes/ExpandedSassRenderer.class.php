@@ -11,7 +11,7 @@
  * @subpackage Sass
  */
 
-require_once dirname(__FILE__) . '/../SassRenderer.class.php';
+require_once 'SassRenderer.class.php';
 
 /**
  * Expanded Sass renderer.
@@ -45,5 +45,3 @@ class ExpandedSassRenderer extends SassRenderer
 		return trim($result)."\n";
 	}
 }
-
-?>

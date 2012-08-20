@@ -11,13 +11,13 @@
  * @subpackage Sass
  */
 
-require_once dirname(__FILE__) . '/../common/CommonCache.class.php';
-require_once dirname(__FILE__) . '/../common/CommonParser.class.php';
-require_once dirname(__FILE__) . '/SassException.class.php';
-require_once dirname(__FILE__) . '/SassCalculator.interface.php';
-require_once dirname(__FILE__) . '/SassElement.class.php';
-require_once dirname(__FILE__) . '/SassElementsList.class.php';
-require_once dirname(__FILE__) . '/SassRenderer.class.php';
+require_once 'CommonCache.class.php';
+require_once 'CommonParser.class.php';
+require_once 'SassException.class.php';
+require_once 'SassCalculator.interface.php';
+require_once 'SassElement.class.php';
+require_once 'SassElementsList.class.php';
+require_once 'SassRenderer.class.php';
 
 /**
  * Sass parser.
@@ -378,5 +378,3 @@ class SassParser extends CommonParser
 	const TOKEN_RIGHT_BRACKET = ')';
 	const TOKEN_STRING = '"';
 }
-
-?>

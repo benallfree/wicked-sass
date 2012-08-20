@@ -11,7 +11,7 @@
  * @subpackage Common
  */
 
-require_once dirname(__FILE__) . '/CommonElementsList.class.php';
+require_once 'CommonElementsList.class.php';
 
 /**
  * Common element.
@@ -232,5 +232,3 @@ abstract class CommonElement
 			return false;
 	}
 }
-
-?>

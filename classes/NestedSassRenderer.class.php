@@ -11,7 +11,7 @@
  * @subpackage Sass
  */
 
-require_once dirname(__FILE__) . '/../SassRenderer.class.php';
+require_once 'SassRenderer.class.php';
 
 /**
  * Nested Sass renderer.
@@ -60,5 +60,3 @@ class NestedSassRenderer extends SassRenderer
 		return $result;
 	}
 }
-
-?>

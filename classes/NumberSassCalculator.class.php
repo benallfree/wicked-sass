@@ -11,7 +11,7 @@
  * @subpackage Sass.Calculator
  */
 
-require_once dirname(__FILE__) . '/../SassCalculator.interface.php';
+require_once 'SassCalculator.interface.php';
 
 /**
  * Number Sass calculator.
@@ -113,5 +113,3 @@ class NumberSassCalculator implements SassCalculator
 		return $this->value;
 	}
 }
-
-?>

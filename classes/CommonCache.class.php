@@ -264,5 +264,3 @@ class CommonCache
 		return $this;
 	}
 }
-
-?>

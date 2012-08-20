@@ -11,7 +11,7 @@
  * @subpackage Common
  */
 
-require_once dirname(__FILE__) . '/CommonElement.class.php';
+require_once 'CommonElement.class.php';
 
 /**
  * Common elements list.
@@ -27,5 +27,3 @@ require_once dirname(__FILE__) . '/CommonElement.class.php';
 abstract class CommonElementsList extends ArrayObject
 {
 }
-
-?>

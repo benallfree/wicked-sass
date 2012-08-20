@@ -25,5 +25,3 @@
 class SassException extends Exception
 {
 }
-
-?>

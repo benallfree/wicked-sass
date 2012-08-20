@@ -11,7 +11,7 @@
  * @subpackage Sass
  */
 
-require_once dirname(__FILE__) . '/../SassRenderer.class.php';
+require_once 'SassRenderer.class.php';
 
 /**
  * Compressed Sass renderer.
@@ -45,5 +45,3 @@ class CompressedSassRenderer extends SassRenderer
 		return $result;
 	}
 }
-
-?>

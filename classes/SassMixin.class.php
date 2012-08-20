@@ -42,6 +42,4 @@ class SassMixin extends Mixin
     file_put_contents($dst, $css);
     return $dst;
   }
-  
-
 }

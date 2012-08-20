@@ -11,8 +11,8 @@
  * @subpackage Sass
  */
 
-require_once dirname(__FILE__) . '/../common/CommonElementsList.class.php';
-require_once dirname(__FILE__) . '/SassElement.class.php';
+require_once 'CommonElementsList.class.php';
+require_once 'SassElement.class.php';
 
 /**
  * Sass elements list.
@@ -28,5 +28,3 @@ require_once dirname(__FILE__) . '/SassElement.class.php';
 class SassElementsList extends CommonElementsList
 {
 }
-
-?>

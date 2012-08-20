@@ -11,7 +11,7 @@
  * @subpackage Sass.Calculator
  */
 
-require_once dirname(__FILE__) . '/../SassCalculator.interface.php';
+require_once 'SassCalculator.interface.php';
 
 /**
  * Color Sass calculator.
@@ -154,5 +154,3 @@ class ColorSassCalculator implements SassCalculator
 		return $this->value;
 	}
 }
-
-?>

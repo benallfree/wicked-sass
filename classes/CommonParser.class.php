@@ -11,8 +11,8 @@
  * @subpackage Common
  */
 
-require_once dirname(__FILE__) . '/CommonElement.class.php';
-require_once dirname(__FILE__) . '/CommonElementsList.class.php';
+require_once 'CommonElement.class.php';
+require_once 'CommonElementsList.class.php';
 
 /**
  * Common parser.
@@ -291,5 +291,3 @@ abstract class CommonParser
 
 	const TOKEN_INDENT = ' ';
 }
-
-?>
